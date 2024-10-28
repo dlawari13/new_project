@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="closebtn()">
+    <div class="continar">
+        <input type="text" id="textbox" disabled va>
+         <div class="place"><img src="close1.png" alt="close" id="close" ontouchstart="eletevalue()"></div>
+        <div id="sptr">___________________________________</div>
+            <button id="btn-clear" ontouchstart="cleardata()">C</button>
+            <button ontouchstart="appendCharctor('(*')">()</button>
+            <button onclick="modols()">%</button>
+            <button class="btn-change" ontouchstart="appendCharctor('/')">÷</button>
+
+      
+            <button  ontouchstart="appendCharctor('7')">7</button>
+            <button ontouchstart="appendCharctor('8')">8</button>
+            <button ontouchstart="appendCharctor('9')">9</button>
+            <button class="btn-change" ontouchstart="appendCharctor('*')">X</button>
+     
+       
+            <button ontouchstart="appendCharctor('4')">4</button>
+            <button  ontouchstart="appendCharctor('5')">5</button>
+            <button ontouchstart="appendCharctor('6')">6</button>
+            <button class="btn-change"  ontouchstart="appendCharctor('-')">-</button>
+     
+            <button ontouchstart="appendCharctor('1')">1</button>
+            <button ontouchstart="appendCharctor('2')">2</button>
+            <button ontouchstart="appendCharctor('3')">3</button>
+            <button class="btn-change" ontouchstart="appendCharctor('+')">+</button>
+    
+            <button  ontouchstart="appendCharctor('+')">+/-</button>
+            <button ontouchstart="appendCharctor('0')">0</button>
+            <button onclick="appendCharctor('.')" >.</button>
+            <button class="btn-change"  ontouchstart="calcalet()">=</button>
+ 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
